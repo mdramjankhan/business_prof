@@ -28,7 +28,7 @@ export default function Footer() {
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
             </footer>
-            <footer className="footer bg-gd-footer-bt text-base-content border-base-300 border-t px-10 py-4">
+            <footer className="footer bg-gd-footer-bt text-base-content  border-t px-10 py-4">
                 <aside className="grid-flow-col items-center">                   
                     <Image src={logo} alt='logo' className='w-14'/>
                     <p>
@@ -37,8 +37,8 @@ export default function Footer() {
                         {`Providing reliable tech assistance since 2016 - ${currentYear}`}
                     </p>
                 </aside>
-                <nav className="md:place-self-center md:justify-self-end">
-                    <div className="grid grid-flow-col gap-4">
+                <nav className="md:place-self-center md:justify-self-end w-full flex items-center justify-center lg:flex-none lg:w-auto ">
+                    <div className="grid grid-flow-col gap-4  ">
                         <a>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
