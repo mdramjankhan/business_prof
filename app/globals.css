@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gradient-background {
+    background: linear-gradient(300deg,deepskyblue,#db73ff,#5f5bfe);
+    background-size: 180% 180%;
+    animation: gradient-animation 27s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+  .hero_ {
+    display: grid;
+    width: 100%;
+    place-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.hero_ > * {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+
+
+.bar-gradient {
+    background: linear-gradient(124deg,#165646,#3e13ae,#7c7994);
+    background-size: 180% 180%;
+    animation: gradient-animation 3s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+
+  .bg-gd-prod {
+    background: linear-gradient(300deg,deepskyblue,#39ef1b,#00b8ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 21s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+  .bg-gd-footer {
+    background: linear-gradient(300deg,#dcdedf,#b4e4f9,#acf7ef);
+    background-size: 180% 180%;
+    animation: gradient-animation 9s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+  .bg-gd-footer-bt {
+    background: linear-gradient(62deg,#debfb7,#acc4f7,#4680ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 9s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
